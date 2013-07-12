@@ -6,7 +6,7 @@ This project contains Vim plugin for editing SequenceL code with Vim. You can in
 
 - Syntax highlighting
 - Improved intendation
-- Autocompletion for built-in functions, operators and keywords
+- Autocompletion (<C-x C-o>) for built-in functions, operators and keywords
 
 ##### What's SequenceL? #####
 
