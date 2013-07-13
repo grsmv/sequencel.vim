@@ -20,6 +20,7 @@
 
 " autoload/sequencel.vim: Vim file providing OmniCompletion for SequenceL files
 
+" Completing built-ins, operators and keywords
 fun! sequencel#Complete (findstart, base)
     let dictionary = "
           \ & * + ++ - / /= < <= = > >= ^
@@ -47,3 +48,18 @@ fun! sequencel#Complete (findstart, base)
     endif
 endfun
 
+
+"  Executing command under cursor
+fun! sequencel#Execute ()
+    if &filetype == "SequenceL"
+        silent !clear
+        let file_name = @%
+        let command = expand("<cword>")
+        let result = system (g:sequencel_interpreter_path . " --load " . file_name . " --command \"" . command . "\" --quit")
+        echo result
+    else
+        echo "sequencel#Execute() works only in SequenceL buffer"
+    endif
+endfun
+
+" vim: noai:ts=4:sw=4

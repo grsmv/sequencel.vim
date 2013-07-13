@@ -19,3 +19,5 @@
 " IN THE SOFTWARE.
 
 au BufEnter,BufNewFile,BufRead *.sl set filetype=SequenceL
+
+" vim: noai:ts=4:sw=4

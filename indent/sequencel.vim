@@ -72,3 +72,5 @@ function! SlIndent(lnum)
 
     return ind
 endfunction
+
+" vim: noai:ts=4:sw=4

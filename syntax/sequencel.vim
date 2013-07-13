@@ -81,3 +81,5 @@ syn keyword    slBoolean       true false
 hi def link    slBoolean       Boolean
 
 let b:current_syntax = "SequenceL"
+
+" vim: noai:ts=4:sw=4

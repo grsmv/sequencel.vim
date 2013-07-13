@@ -1,12 +1,19 @@
 ### sequencel.vim ###
 
-This project contains Vim plugin for editing SequenceL code with Vim. You can install it as regular Vim plugin or as [Vundle](https://github.com/gmarik/vundle) bundle.
+This project contains Vim plugin for editing SequenceL code with Vim. 
+
+##### Installation #####
+
+1. Install it as regular Vim plugin or as [Vundle](https://github.com/gmarik/vundle) bundle.
+2. Specify path to SequenceL interpreter at `g:sequencel_interpreter_path`
+   variable in your .vimrc.
 
 ##### Features #####
 
 - Syntax highlighting
 - Improved intendation
-- Autocompletion (<C-x C-o>) for built-in functions, operators and keywords
+- Autocompletion (`<C-x C-o>`) for built-in functions, operators and keywords
+- Executing command under cursor (`<Leader se>`)
 
 ##### What's SequenceL? #####
 
@@ -16,5 +23,4 @@ Please read [Wikipedia](http://en.wikipedia.org/wiki/SequenceL) and [TMT website
 
 #### Todo #####
 
-1. Executing statement under cursor
 1. Displaying errors with [Syntastic](https://github.com/scrooloose/syntastic)
