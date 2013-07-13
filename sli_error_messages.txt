@@ -1,0 +1,33 @@
+ERROR: Missing semi-colon after definition of main2
+  before :=  on line 17 of file example.sl
+
+ERROR: Parse error on input: .
+   in function main2 on line 16 of file example.sl
+
+Error in function main2:
+In prime(100...0.2e) on example.sl:16
+In 100...0.2e on example.sl:16
+No signature matching:
+...(int, float)
+Expected one of the following signatures:
+...(int, int)
+
+ERROR: Expected an operator following z
+   in function prime on line 14 of file example.sl
+
+ERROR: Parse error on input:
+   in function prime on line 14 of file example.sl
+
+Error in function main:
+Type _default_struct does not match int(2)
+
+ERROR: Parse error on input:
+  let
+    before :=  on line 9 of file example.sl
+
+ERROR: Parse error on input:  (
+  before :=  on line 13 of file example.sl
+
+ERROR: Undefined symbol: o
+   in function main on line 10 of file example.sl
+
