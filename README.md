@@ -21,6 +21,6 @@ SequenceL is a general purpose functional programming language, whose primary de
 
 Please read [Wikipedia](http://en.wikipedia.org/wiki/SequenceL) and [TMT website](http://www.texasmulticoretechnologies.com/technology/sequenceL/) for more information.
 
-#### Todo #####
+##### Todo ######
 
 1. Displaying errors with [Syntastic](https://github.com/scrooloose/syntastic)
