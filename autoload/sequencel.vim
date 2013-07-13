@@ -52,7 +52,7 @@ endfun
 "  Executing command under cursor
 fun! sequencel#Execute ()
     if &filetype == "SequenceL"
-        silent !clear
+        " silent !clear
         let file_name = @%
         let command = expand("<cword>")
         let result = system (g:sequencel_interpreter_path . " --load " . file_name . " --command \"" . command . "\" --quit")

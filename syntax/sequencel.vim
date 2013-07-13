@@ -69,11 +69,11 @@ syn region     slBlock         start="{" end="}" transparent fold
 syn region     slParen         start="(" end=")" transparent
 
 " Integers
-syn match      slInteger       "\<\d\+\>"
+syn match      slInteger       "\<\d\+\([Ee]\d\+\)\?\>"
 hi def link    slInteger       Number
 
 " Floating point
-syn match      slFloat         "\<\d\+\.\d*\>"
+syn match      slFloat         "\<\d\+\.\d*\([Ee][-+]\d\+\)\?\>"
 hi def link    slFloat         Float
 
 " Booleans
