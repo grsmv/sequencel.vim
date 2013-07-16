@@ -25,9 +25,9 @@ fun! sequencel#Complete (findstart, base)
     let dictionary = "
           \ & * + ++ - / /= < <= = > >= ^
           \ acos all appends asin atan cos e else eq_bag eq_list eq_set
-          \ floor head import in let ln mod mod none not or or pi product public
-          \ remdups sin sin size some sqrt subset sum
-          \ tail takeaway tan tan transpose when"
+          \ floor foreach head import in let ln mod mod none not or or pi product public
+          \ remdups sin sin size some sqrt subset sum tail takeaway tan tan transpose 
+          \ when within"
 
     if a:findstart
         let line = getline('.')
