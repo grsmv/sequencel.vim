@@ -27,7 +27,9 @@ fun! sequencel#Complete (findstart, base)
           \ acos all appends asin atan cos e else eq_bag eq_list eq_set
           \ floor head import in let ln mod mod none not or or pi product public
           \ remdups sin sin size some sqrt subset sum
-          \ tail takeaway tan tan transpose when"
+          \ tail takeaway tan tan transpose when
+          \ equalList equelSet equalBag join takeAway
+          \ removeDuplicates asciiToInt intToAscii"
 
     if a:findstart
         let line = getline('.')

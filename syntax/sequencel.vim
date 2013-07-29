@@ -36,6 +36,8 @@ syn keyword    slConstant      pi e
 syn keyword    slBuiltin       some all none sum product mod floor sqrt ln sin cos tan asin acos
 syn keyword    slBuiltin       atan subset eq_list eq_bag eq_set appends size head tail
 syn keyword    slBuiltin       transpose takeaway remdups
+syn keyword    slBuiltin       equalList equelSet equalBag join takeAway
+syn keyword    slBuiltin       removeDuplicates asciiToInt intToAscii"
 hi def link    slConstant      Constant
 hi def link    slBuiltin       Keyword
 
