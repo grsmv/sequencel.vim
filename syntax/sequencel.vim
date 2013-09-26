@@ -80,6 +80,6 @@ hi def link    slFloat         Float
 syn keyword    slBoolean       true false
 hi def link    slBoolean       Boolean
 
-let b:current_syntax = "SequenceL"
+let b:current_syntax = "sequencel"
 
 " vim: noai:ts=4:sw=4

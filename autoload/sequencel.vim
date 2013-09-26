@@ -51,7 +51,7 @@ endfun
 
 "  Executing command under cursor
 fun! sequencel#Execute ()
-    if &filetype == "SequenceL"
+    if &filetype == "sequencel"
         " silent !clear
         let file_name = @%
         let command = expand("<cword>")

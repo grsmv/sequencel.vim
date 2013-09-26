@@ -18,6 +18,6 @@
 " FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 " IN THE SOFTWARE.
 
-au BufEnter,BufNewFile,BufRead *.sl set filetype=SequenceL
+au BufEnter,BufNewFile,BufRead *.sl set filetype=sequencel
 
 " vim: noai:ts=4:sw=4
