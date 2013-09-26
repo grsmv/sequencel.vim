@@ -25,7 +25,7 @@ syn case match
 
 " Keywords and directives
 syn keyword    slDirective     public import
-syn keyword    slKeyword       let in
+syn keyword    slKeyword       let in foreach within
 syn keyword    slConditional   when else or & not
 hi def link    slDirective     Statement
 hi def link    slKeyword       Keyword
