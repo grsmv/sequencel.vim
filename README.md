@@ -29,3 +29,4 @@ Please read [Wikipedia](http://en.wikipedia.org/wiki/SequenceL) and [TMT website
 1. Scientific notation for Numbers and Floats
 1. Add standart functions: `asciiToInt`, `intToAscii`, `removeDups`, `join`
 1. `takeaway` -> `takeAway`
+1. `eq_(list|set|bag)` -> `equal(List|Set|Bag)`
