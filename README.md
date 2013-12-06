@@ -28,5 +28,4 @@ Please read [Wikipedia](http://en.wikipedia.org/wiki/SequenceL) and [TMT website
 1. Displaying errors with [Syntastic](https://github.com/scrooloose/syntastic)
 1. Scientific notation for Numbers and Floats
 1. Add standart functions: `asciiToInt`, `intToAscii`, `removeDups`, `join`
-1. `takeaway` -> `takeAway`
-1. `eq_(list|set|bag)` -> `equal(List|Set|Bag)`
+1. eq_list → equalList,  eq_bag → equalBag, eq_set → equalSet, takeaway → takeAway, remdups → removeDuplicates, appends -> join
